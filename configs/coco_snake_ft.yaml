@@ -1,0 +1,24 @@
+model: 'coco'
+network: 'ro_34'
+task: 'snake'
+resume: true
+gpus: (0,1)
+
+train:
+    optim: 'sgd'
+    warmup: false
+    lr: 1e-4
+    milestones: (15,)
+    gamma: 0.1
+    weight_decay: 1e-4
+    batch_size: 44
+    dataset: 'CocoTrain'
+    num_workers: 8
+    epoch: 35
+test:
+    dataset: 'CocoMini'
+    #dataset: 'CocoVal'
+    batch_size: 1
+
+heads: {'ct_hm': 80, 'wh': 256, 'mask': 1}
+segm_or_bbox: 'segm'
