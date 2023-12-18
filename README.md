@@ -1,4 +1,9 @@
 # PolySnake
+
+<p>
+    <a href='https://arxiv.org/pdf/2301.08898.pdf' target="_blank"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+</p>
+
 This is a PyTorch/GPU re-implementation of the paper [Recurrent Contour-based Instance Segmentation with Progressive Learning](https://arxiv.org/pdf/2301.08898.pdf) 
 ![city](assets/overview.png)
 ![image](https://user-images.githubusercontent.com/50725551/223946327-a7316500-b7b6-4842-a89d-f12c9967b117.png)
