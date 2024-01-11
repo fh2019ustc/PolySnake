@@ -6,8 +6,12 @@
 
 This is a PyTorch/GPU re-implementation of the paper [Recurrent Generic Contour-based Instance Segmentation with Progressive Learning](https://arxiv.org/pdf/2301.08898.pdf) 
 ![city](assets/overview.png)
+
+### Results on Instance Segmentation
 ![image](https://user-images.githubusercontent.com/50725551/223946327-a7316500-b7b6-4842-a89d-f12c9967b117.png)
+### Results on Scene Text Detection
 ![image](https://github.com/fh2019ustc/PolySnake/assets/50725551/265ba8c0-709e-42a9-959e-e7caab0a94fa)
+### Results on Lane Detection
 ![image](https://github.com/fh2019ustc/PolySnake/assets/50725551/cd94ac03-8ba0-4562-9306-c69b04b931c1)
 
 
