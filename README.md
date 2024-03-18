@@ -74,6 +74,17 @@ Please see [INSTALL.md](INSTALL.md).
     python run.py --type network --cfg_file configs/coco_snake.yaml test.dataset CocoVal
     ```
 
+### Testing on ADE20K
+
+1. Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1OineXWVAmxZvi42qoeEcaX91N2TaOMR7?usp=drive_link), and put it to `$ROOT/data/model/snake/ade20k/`.
+2. Test:
+    ```
+    python run.py --type evaluate --cfg_file configs/ade20k.yaml test.dataset ade20kVal
+    ```
+3. Speed:
+    ```
+    python run.py --type network --cfg_file configs/ade20k.yaml test.dataset ade20kVal
+    ```
 
 ### Demo
 
@@ -121,6 +132,11 @@ python train_net.py --cfg_file configs/sbd_snake.yaml model sbd_snake
 python train_net.py --cfg_file configs/coco_snake.yaml model coco_snake
 ```
 
+### Training on ADE20K
+
+```
+python train_net.py --cfg_file configs/ade20k.yaml model ade20k_snake
+```
 
 ## Citation
 
