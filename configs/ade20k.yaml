@@ -1,0 +1,23 @@
+model: 'ade20k'
+network: 'ro_34'
+task: 'snake'
+resume: false
+gpus: (0,1,2,3)
+
+train:
+    optim: 'adam'
+    lr: 1e-4
+    milestones: (80, 120)
+    gamma: 0.25
+    batch_size: 48
+    dataset: 'ade20kTrain'
+    num_workers: 12
+    epoch: 150
+    scheduler: 'manual'
+    gammas: [0.5, 0.1]
+test:
+    dataset: 'ade20kVal'
+    batch_size: 1
+
+heads: {'ct_hm': 100, 'wh': 256, 'mask': 1}
+segm_or_bbox: 'segm'
