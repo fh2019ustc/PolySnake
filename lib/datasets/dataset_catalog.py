@@ -102,6 +102,18 @@ class DatasetCatalog(object):
             'data_root': 'data/kitti/testing/image_2',
             'ann_file': 'data/kitti/testing/instances_val.json',
             'split': 'mini'
+        },
+        'ade20kTrain': {
+            'id': 'ade20k',
+            'data_root': 'data/ade20k/images/training',
+            'ann_file': 'data/ade20k/ade20k_instance_train.json',
+            'split': 'train'
+        },
+        'ade20kVal': {
+            'id': 'ade20k',
+            'data_root': 'data/ade20k/images/validation',
+            'ann_file': 'data/ade20k/ade20k_instance_val.json',
+            'split': 'val'
         }
     }
 
