@@ -145,10 +145,10 @@ If you find this code useful for your research, please use the following BibTeX 
 
 ```
 @inproceedings{PolySnake2023,
-  title={Recurrent Contour-based Instance Segmentation with Progressive Learning},
+  title={Recurrent Generic Contour-based Instance Segmentation with Progressive Learning},
   author={Feng, Hao and Zhou, Wengang and Yin, Yufei and Deng, Jiajun and Sun, Qi and Li, Houqiang},
-  booktitle={Arxiv},
-  year={2023}
+  booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2024}
 }
 ```
 
