@@ -1,5 +1,5 @@
 # PolySnake
-🔥 **Good news! Our work has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (*TCSVT*).**
+🔥 **Good news! Our work has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (*TCSVT*), 2024.**
 
 <p>
     <a href='https://arxiv.org/pdf/2301.08898.pdf' target="_blank"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
