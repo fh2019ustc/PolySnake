@@ -26,7 +26,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on Cityscapes
 
-1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1RMS9eYafhF4AJV2qZsYhZjekB1Z8jXG7/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1k-6HyN6Hj9KvGF-ehntYAg?pwd=l4b2), and put it to `$ROOT/data/model/rcnn_snake/cityscapes/`.
+1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1RMS9eYafhF4AJV2qZsYhZjekB1Z8jXG7/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1-CbYA-vYbxxXgotuD2Vhww?pwd=7ryd), and put it to `$ROOT/data/model/rcnn_snake/cityscapes/`.
 2. Test:
     ```
     # use coco evaluator
@@ -41,7 +41,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on Kins
 
-1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1aqNmy5YFubmvWMBtpjtpdIABkF7LvdBU/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1k-6HyN6Hj9KvGF-ehntYAg?pwd=l4b2), and put it to `$ROOT/data/model/snake/kins/`.
+1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1aqNmy5YFubmvWMBtpjtpdIABkF7LvdBU/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1-CbYA-vYbxxXgotuD2Vhww?pwd=7ryd), and put it to `$ROOT/data/model/snake/kins/`.
 2. Test:
     ```
     python run.py --type evaluate --cfg_file configs/kins_snake.yaml test.dataset KinsVal
@@ -53,7 +53,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on Sbd
 
-1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1LAHF228PNiKYaMUTkIoc7ztzI9SqTjVP/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1k-6HyN6Hj9KvGF-ehntYAg?pwd=l4b2), and put it to `$ROOT/data/model/snake/sbd/`.
+1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1LAHF228PNiKYaMUTkIoc7ztzI9SqTjVP/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1-CbYA-vYbxxXgotuD2Vhww?pwd=7ryd), and put it to `$ROOT/data/model/snake/sbd/`.
 2. Test:
     ```
     python run.py --type evaluate --cfg_file configs/sbd_snake.yaml test.dataset SbdVal
@@ -65,7 +65,7 @@ Please see [INSTALL.md](INSTALL.md).
 
 ### Testing on COCO
 
-1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1SWU3erDgePcIHIOWpW11dJomXb39ORw8/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1k-6HyN6Hj9KvGF-ehntYAg?pwd=l4b2), and put it to `$ROOT/data/model/snake/coco/`.
+1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1SWU3erDgePcIHIOWpW11dJomXb39ORw8/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1-CbYA-vYbxxXgotuD2Vhww?pwd=7ryd), and put it to `$ROOT/data/model/snake/coco/`.
 2. Test:
     ```
     python run.py --type evaluate --cfg_file configs/coco_snake.yaml test.dataset CocoVal
