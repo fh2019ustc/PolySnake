@@ -144,10 +144,10 @@ python train_net.py --cfg_file configs/ade20k.yaml model ade20k_snake
 If you find this code useful for your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{PolySnake2023,
-  title={Recurrent Generic Contour-based Instance Segmentation with Progressive Learning},
-  author={Feng, Hao and Zhou Keyi and Zhou, Wengang and Yin, Yufei and Deng, Jiajun and Sun, Qi and Li, Houqiang},
-  booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+@article{feng2024recurrent,
+  title={Recurrent generic contour-based instance segmentation with progressive learning},
+  author={Feng, Hao and Zhou, Keyi and Zhou, Wengang and Yin, Yufei and Deng, Jiajun and Sun, Qi and Li, Houqiang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2024}
 }
 ```
